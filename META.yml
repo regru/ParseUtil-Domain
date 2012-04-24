@@ -1,0 +1,39 @@
+---
+abstract: 'Utility for parsing a domain name into its components.'
+author:
+  - 'William Travis Holton <wtravisholton@yahoo.de>'
+build_requires:
+  Net::IDN::Encode: 0
+  Perl::Critic: 0
+  Regexp::Assemble::Compressed: 0
+  Smart::Comments: 0
+  Test::Class: 0
+  Test::Deep: 0
+  Test::More: 0
+  Test::Perl::Critic: 0
+  Unicode::CharName: 0
+  YAML: 0
+configure_requires:
+  Module::Build: 0.38
+dynamic_config: 1
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.112150'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: ParseUtil-Domain
+provides:
+  ParseUtil::Domain:
+    file: lib/ParseUtil/Domain.pm
+    version: 2.14
+requires:
+  Carp: 0
+  List::MoreUtils: 0
+  Net::IDN::Encode: 0
+  Net::IDN::Nameprep: 0
+  Net::IDN::Punycode: 0
+  Perl6::Export::Attrs: 0
+  version: 0.77
+resources:
+  license: http://dev.perl.org/licenses/
+version: 2.14
