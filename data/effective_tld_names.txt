@@ -4319,6 +4319,7 @@ sc.tz
 
 // ua : http://www.nic.net.ua/
 ua
+co.ua
 com.ua
 edu.ua
 gov.ua
